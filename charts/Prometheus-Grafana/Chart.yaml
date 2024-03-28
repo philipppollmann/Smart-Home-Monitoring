@@ -1,0 +1,7 @@
+apiVersion: v2
+name: prometheus-grafana-stack
+version: 43.3.0
+dependencies:
+  - name: prometheus-stack
+    repository: https://prometheus-community.github.io/helm-charts
+    version: 43.1.3
