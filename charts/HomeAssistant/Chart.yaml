@@ -1,0 +1,10 @@
+apiVersion: v2
+name: home-assistant
+version: 0.1.0
+description: |
+  Home Assistant is an open-source home automation platform running on Python 3. 
+  Track and control all devices at home and automate control.
+dependencies:
+  - name: home-assistant
+    version: 0.1.5
+    repository: https://lmatfy.github.io/charts
