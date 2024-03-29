@@ -1,0 +1,8 @@
+apiVersion: v2
+name: kubernetes-dashboard
+version: 0.1.0
+description:  A Helm chart for Kubernetes Dashboard
+dependencies:
+  - name: kubernetes-dashboard
+    repository: https://kubernetes.github.io/dashboard/
+    version: 7.1.3
