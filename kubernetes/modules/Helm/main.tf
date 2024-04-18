@@ -1,11 +1,6 @@
 resource "helm_release" "example" {
   name       = var.name
-  repository = var.repository
-  chart      = var.chart
-  version    = var.version
-
-  values = [
-    "${file(var.values_file)}"
-  ]
-
+  namespace = var.namespace
+  chart      = var.chart # Path to the local helm chart
 }
+

@@ -10,8 +10,8 @@ variable "chart" {
   type = string
 }
 
-variable "version" {
-  type = number
+variable "namespace" {
+  type = string
 }
 
 variable "values_file" {
