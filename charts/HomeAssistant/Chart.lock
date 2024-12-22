@@ -1,6 +1,0 @@
-dependencies:
-- name: home-assistant
-  repository: https://lmatfy.github.io/charts
-  version: 0.1.5
-digest: sha256:8abab12a8112cb12e85930639b5a06101589ea1d341bdd7f6fed0d7b25217398
-generated: "2024-03-29T19:36:47.181493+01:00"

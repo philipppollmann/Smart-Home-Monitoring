@@ -1,6 +1,0 @@
-dependencies:
-- name: homebridge
-  repository: oci://tccr.io/truecharts
-  version: 7.5.2
-digest: sha256:2a0df7230a4e2c7abf9a11263a9489d4051183535abc79b1900b54888c5db033
-generated: "2024-03-29T19:23:20.649331+01:00"
