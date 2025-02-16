@@ -14,3 +14,7 @@ terraform.rc
 
 # Jetbrains
 .idea/
+
+# Kubernetes
+kubernetes/terraform.tfstate
+kubernetes/terraform.tfstate.backup

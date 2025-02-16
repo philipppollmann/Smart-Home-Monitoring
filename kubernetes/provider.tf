@@ -1,7 +1,8 @@
 locals {
   macos_kubeconfig = "~/.kube/config"
   windows_kubeconfig = "C:/Users/philipp/.kube/config"
-  context    = "rancher-desktop"
+  rancher_context    = "rancher-desktop"
+  docker_desktop_context = "docker-desktop"
 }
 
 terraform {
@@ -16,13 +17,13 @@ terraform {
 }
 
 provider "kubernetes" {
-  config_path = local.windows_kubeconfig
-  config_context = local.context
+  config_path = local.macos_kubeconfig
+  config_context = local.docker_desktop_context
 }
 
 provider "helm" {
     kubernetes {
-        config_path = local.windows_kubeconfig
-        config_context = local.context
+        config_path = local.macos_kubeconfig
+        config_context = local.docker_desktop_context
     }
 }
