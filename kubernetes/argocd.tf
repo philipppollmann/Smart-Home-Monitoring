@@ -13,7 +13,7 @@
 #   namespace         = "argocd"
 #   create_namespace  = true
 
-#   timeout = 1200 # 20 minutes
+#   timeout = 8400
 
 
 #   values = [
